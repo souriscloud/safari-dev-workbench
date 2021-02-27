@@ -5,11 +5,12 @@ body {
 }
 
 #sfr_hud {
-  position: absolute;
-  bottom: 0.1vh;
-  left: 0.5vw;
+  display: block;
   width: max-content;
   height: max-content;
+  position: absolute;
+  bottom: 10px;
+  left: 0.5vw;
 }
 
 .SaFaRi-HUD__UserInfo {
