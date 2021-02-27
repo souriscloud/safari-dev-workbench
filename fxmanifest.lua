@@ -13,3 +13,7 @@ files {
 shared_scripts {
   'config/config.lua'
 }
+
+client_scripts {
+  'client/pausemenutext.lua'
+}
