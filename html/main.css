@@ -10,8 +10,8 @@ body {
   height: max-content;
   margin-left: auto;
   margin-right: auto;
-  /* position: absolute; */
-  /* bottom: 10px; */
+  position: absolute;
+  bottom: 10px;
   /* left: 0.5vh; */
 }
 
@@ -23,9 +23,10 @@ body {
 
 .SaFaRi-HUD__UserInfo__Icon {
   font-size: 13em;
-  padding-right: 10px;
+  padding: 10px 10px;
 }
 
 .SaFaRi-HUD__UserInfo__Name {
   font-size: 5em;
+  padding: 10px 10px;
 }
