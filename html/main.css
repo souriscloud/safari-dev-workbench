@@ -1,17 +1,37 @@
 body {
   width: 100%;
+  height: 100%;
   overflow: hidden;
   font-family: 'Oswald', sans-serif;
+  background: url('../_dev/bg.png') no-repeat;
+  background-size: cover;
 }
 
-#sfr_hud {
-  display: block;
-  width: max-content;
+/*
+COLORINGS
+*/
+.c-red {
+  color: red;
+}
+
+.c-green {
+  color: green;
+}
+
+.c-blueviolet {
+  color: blueviolet;
+}
+
+.SafaRi-HUD {
+  display: justify;
+  width: 200px;
   height: max-content;
   margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 10px;
+  margin-right: 20px;
+  /* margin-top: auto; */
+  /* justify-self: end; */
+  /* position: absolute; */
+  /* bottom: 10px; */
   /* left: 0.5vh; */
 }
 
@@ -19,14 +39,24 @@ body {
   background-color: rgba(0, 0, 0, 0.434);
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin: 5px 5px;
 }
 
 .SaFaRi-HUD__UserInfo__Icon {
-  font-size: 13em;
-  padding: 10px 10px;
+  font-size: 1em;
+  justify-content: center;
+  text-align: center;
+  vertical-align: auto;
+  margin-right: 15px;
+  padding-top: 4px;
 }
 
-.SaFaRi-HUD__UserInfo__Name {
-  font-size: 5em;
-  padding: 10px 10px;
+.SaFaRi-HUD__UserInfo__Value {
+  font-size: 1em;
+  justify-content: center;
+  text-align: center;
+  vertical-align: auto;
 }
