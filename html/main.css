@@ -8,9 +8,11 @@ body {
   display: block;
   width: max-content;
   height: max-content;
-  position: absolute;
-  bottom: 10px;
-  left: 0.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute; */
+  /* bottom: 10px; */
+  /* left: 0.5vh; */
 }
 
 .SaFaRi-HUD__UserInfo {
