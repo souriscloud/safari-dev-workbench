@@ -20,9 +20,10 @@ body {
 }
 
 .SaFaRi-HUD__UserInfo__Icon {
+  font-size: 13em;
   padding-right: 10px;
 }
 
 .SaFaRi-HUD__UserInfo__Name {
-  font-size: 13em;
+  font-size: 5em;
 }
