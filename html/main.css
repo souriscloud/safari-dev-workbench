@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+}
+
+.SaFaRi-HUD {
+  position: absolute;
+  bottom: 0.1vh;
+  left: 0.5vw;
+  width: max-content;
+  height: max-content;
+}
+
+.SaFaRi-HUD__UserInfo {
+  background-color: rgba(0, 0, 0, 0.434);
+  color: white;
+  text-align: center;
+}
+
+.SaFaRi-HUD__UserInfo__Icon {
+  padding-right: 10px;
+}
+
+.SaFaRi-HUD__UserInfo__Name {
+  font-size: 13em;
+}
